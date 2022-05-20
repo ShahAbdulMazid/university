@@ -25,10 +25,10 @@ class startmenu extends WindowAdapter{
 	    startmenu(){
 	f=new JFrame("Login Panel");
             JLabel lblNewLabel = new JLabel("University Management System");
-            lblNewLabel.setFont(new Font("Algerian", Font.BOLD, 18));
+            lblNewLabel.setFont(new Font("Algerian", Font.BOLD, 14));
             lblNewLabel.setBounds(114, 0, 264, 22);
 	    JLabel lblNewLabel_1 = new JLabel("Welcome to Login panel!");
-            lblNewLabel_1.setFont(new Font("Algerian", Font.BOLD, 14));
+            lblNewLabel_1.setFont(new Font("Algerian", Font.BOLD, 11));
 	    lblNewLabel_1.setBounds(145, 22, 168, 22);
 	    final JLabel label = new JLabel();            
 	    label.setBounds(20,150, 200,50);  
@@ -57,7 +57,7 @@ class startmenu extends WindowAdapter{
 	                  String user =text.getText();  
 	                 String pass= new String(value.getPassword()); 
 	                
-	                 if(user.equals("1") && pass.equals("1")) {
+	                 if(user.equals("admin") && pass.equals("admin")) {
                              
 	                	  f.setVisible(false);
 	                	  pannel nw=new pannel();
