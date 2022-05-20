@@ -1,0 +1,3 @@
+universitymanagement.startmenu
+universitymanagement.startmenu$1
+universitymanagement.UniversityManagement
